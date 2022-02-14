@@ -8,6 +8,8 @@ namespace Domain
             this.Id = id;
 
         }
+
+        public int Numb { get; set; }
         public Guid Id { get; set; }
 
     }
