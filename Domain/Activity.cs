@@ -6,7 +6,7 @@ namespace Domain
         public Activity(Guid id)
         {
             this.Id = id;
-
+//fd
         }
 
         public int Numb { get; set; }
