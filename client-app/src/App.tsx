@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import { ducks } from './demo';
-import DuckItem from './DuckItem';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { Header, List } from 'semantic-ui-react';
 
 function App() {
 
@@ -17,16 +15,15 @@ function App() {
   },[]);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <ul>
+    <div>
+      <Header as='h2' icon='users' content='Reactivities' />
+        <List>
           {activities.map((activity: any) => (
-            <li key={activity.id}>
+            <List.Item key={activity.id}>
               {activity.title}
-            </li>
+            </List.Item>
           ))}
-        </ul>
-      </header>
+        </List>
     </div>
   );
 }
