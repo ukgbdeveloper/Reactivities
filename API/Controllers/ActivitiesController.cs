@@ -17,15 +17,15 @@ namespace API.Controllers
             return Ok(activities);
         }
 
-        /*[HttpGet("{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Activity>> GetActivity(Guid id)
         {
-            var activity = await _context.Activities.FindAsync(id);
+            var activity = await Mediator.Send(new Details.Query {Id = id});
             if (activity == null)
             {
                 return NotFound();
             }
             return Ok(activity);
-        }*/
+        }
     }
 }
