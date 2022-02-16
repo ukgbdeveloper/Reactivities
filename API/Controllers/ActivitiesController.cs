@@ -10,17 +10,10 @@ namespace API.Controllers
 {
     public class ActivitiesController : BaseApiController
     {
-        private readonly IMediator _mediator;
-
-        public ActivitiesController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
-        
         [HttpGet]
         public async Task<ActionResult<List<Activity>>> GetActivities()
         {
-            var activities = await _mediator.Send(new List.Query());
+            var activities = await Mediator.Send(new List.Query());
             return Ok(activities);
         }
 
