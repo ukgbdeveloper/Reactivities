@@ -1,15 +1,9 @@
 using API.Extensions;
-using Application.Activities;
-using Application.Core;
-using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
-using Persistence;
 
 namespace API
 {
@@ -40,11 +34,8 @@ namespace API
             }
             
             app.UseRouting();
-
             app.UseCors("CorsPolicy");
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
