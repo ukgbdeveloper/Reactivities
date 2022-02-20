@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using Domain;
 using MediatR;
 using Persistence;
-using SQLitePCL;
 
 namespace Application.Activities
 {
