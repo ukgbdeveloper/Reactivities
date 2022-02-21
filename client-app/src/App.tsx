@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div>
+      <div role="header">Simple Header</div>
       <Header as='h2' icon='users' content='Reactivities' />
         <List>
           {activities.map((activity: any) => (

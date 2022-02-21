@@ -42,6 +42,7 @@ namespace Application.Activities
                 catch (Exception e)
                 {
                     _logger.LogInformation("Task was cancelled");
+                    _logger.LogInformation($"Exception raised: {e.Message}");
                 }
                 
                 return await _context.Activities.ToListAsync(cancellationToken: cancellationToken);
