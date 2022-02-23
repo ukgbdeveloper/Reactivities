@@ -1,4 +1,5 @@
 using API.Extensions;
+using Honeycomb.OpenTelemetry;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +22,7 @@ namespace API
         {
             services.AddControllers();
             services.AddApplicationServices(_config);
+            services.AddHoneycomb(_config);
         }
         
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
