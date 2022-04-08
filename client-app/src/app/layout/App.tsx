@@ -8,11 +8,8 @@ import { useStore } from '../stores/store';
 import { observer } from 'mobx-react-lite';
 import HomePage from '../../features/activities/home/HomePage';
 import {
-  BrowserRouter as Router,
   Route,
-  Routes,
-  Link
-} from "react-router-dom";
+  Routes} from "react-router-dom";
 
 function App() {
 
@@ -30,12 +27,8 @@ function App() {
       <NavBar />
       <Container style={{marginTop:'7em'}}>
         <Routes>
-        <Route path='/' element={<HomePage/>}>
-          
-        </Route>
-        <Route path='/dashboard' element={<ActivityDashboard/>}>
-          
-        </Route>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/dashboard' element={<ActivityDashboard/>}/>
         </Routes>
       </Container>
     </>
