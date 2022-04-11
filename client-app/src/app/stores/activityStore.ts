@@ -58,7 +58,9 @@ export default class ActivityStore {
         this.loading = true;
         activity.id = uuid();
         try {
+            console.log('creating sending');
             await agent.Activities.create(activity);
+            console.log('creating sent');
             runInAction(() => {
                 this.activityRegistry.set(activity.id, activity);
                 this.selectedActivity = activity;
