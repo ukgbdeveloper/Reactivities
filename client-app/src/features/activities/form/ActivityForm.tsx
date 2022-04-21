@@ -6,12 +6,11 @@ import LoadingComponents from "../../../app/layout/LoadingComponents";
 import { useStore } from "../../../app/stores/store";
 
 
-export default observer(function ActivityForm() {
+export default observer(function ActivityForm(key) {
 
     const {activityStore} = useStore();
     const {createActivity, updateActivity, loading, loadActivity, loadingInitial} = activityStore;
     const {id} = useParams<{id:string}>();
-
     const [activity, setActivity] = useState({
         id: "",
         title: "",
@@ -24,7 +23,7 @@ export default observer(function ActivityForm() {
 
     useEffect(() => {
         if (id) loadActivity(id).then(activity => setActivity(activity!));
-    }, [id, loadActivity]);
+    }, [id, loadActivity,key]);
 
     function handleSumbit() {
         activity.id ? updateActivity(activity) : createActivity(activity);
