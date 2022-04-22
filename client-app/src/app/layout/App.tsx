@@ -20,13 +20,10 @@ function App() {
         <>
           <NavBar />
           <Container style={{marginTop:'7em'}}>
-            
-              <Route path='/' component={HomePage}/>
               <Route exact path='/activities' component={ActivityDashboard}/>
               <Route path='/activities/:id' component={ActivityDetails}/>
               <Route path='/createActivity' component={ActivityForm}/>
               <Route key={location.key} path='/manage/:id' component={ActivityForm}/>
-            
           </Container>
       </>
       )} />
