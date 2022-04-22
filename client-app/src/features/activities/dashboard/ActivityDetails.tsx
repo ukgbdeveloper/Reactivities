@@ -7,7 +7,6 @@ import LoadingComponents from "../../../app/layout/LoadingComponents";
 import { useStore } from "../../../app/stores/store";
 
 
-
 export default observer(function ActivityDetails() {
     const {activityStore} = useStore();
     const {selectedActivity: activity, loadActivity, loadingInitial} = activityStore;

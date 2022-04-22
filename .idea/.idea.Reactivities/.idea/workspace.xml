@@ -6,8 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +23,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
@@ -73,7 +74,7 @@
       <workItem from="1649679571532" duration="768000" />
       <workItem from="1649689963231" duration="165000" />
       <workItem from="1649692885600" duration="389000" />
-      <workItem from="1650535607820" duration="623000" />
+      <workItem from="1650535607820" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>

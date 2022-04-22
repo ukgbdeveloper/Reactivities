@@ -6,7 +6,6 @@ import { observer } from 'mobx-react-lite';
 import HomePage from '../../features/activities/home/HomePage';
 import {
   Route,
-  Routes,
   useLocation} from "react-router-dom";
 import ActivityForm from '../../features/activities/form/ActivityForm';
 import ActivityDetails from '../../features/activities/dashboard/ActivityDetails';
@@ -16,16 +15,22 @@ function App() {
   const location = useLocation();
   return (
     <>
-      <NavBar />
-      <Container style={{marginTop:'7em'}}>
-        <Routes>
-          <Route path='/' element={<HomePage/>}/>
-          <Route path='/activities' element={<ActivityDashboard/>}/>
-          <Route path='/activities/:id' element={<ActivityDetails/>}/>
-          <Route path='/createActivity' element={<ActivityForm key={location.key}/>}/>
-          <Route path='/manage/:id' element={<ActivityForm key={location.key}/>}/>
-        </Routes>
-      </Container>
+      <Route exact path='/' component={HomePage}/>
+      <Route path={'/(.+)'} render={() => (
+        <>
+          <NavBar />
+          <Container style={{marginTop:'7em'}}>
+            
+              <Route path='/' component={HomePage}/>
+              <Route exact path='/activities' component={ActivityDashboard}/>
+              <Route path='/activities/:id' component={ActivityDetails}/>
+              <Route path='/createActivity' component={ActivityForm}/>
+              <Route key={location.key} path='/manage/:id' component={ActivityForm}/>
+            
+          </Container>
+      </>
+      )} />
+
     </>
   );
 }
