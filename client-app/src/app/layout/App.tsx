@@ -8,7 +8,8 @@ import {
   Route,
   useLocation} from "react-router-dom";
 import ActivityForm from '../../features/activities/form/ActivityForm';
-import ActivityDetails from '../../features/activities/dashboard/ActivityDetails';
+import ActivityDetails from '../../features/activities/dashboard/details/ActivityDetails';
+
 
 function App() {
 
