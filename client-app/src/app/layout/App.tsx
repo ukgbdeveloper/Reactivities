@@ -9,6 +9,8 @@ import {
   useLocation} from "react-router-dom";
 import ActivityForm from '../../features/activities/form/ActivityForm';
 import ActivityDetails from '../../features/activities/dashboard/details/ActivityDetails';
+import TestErrors from '../../features/errors/TestError';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
   const location = useLocation();
   return (
     <>
+    <ToastContainer position='bottom-right' />
       <Route exact path='/' component={HomePage}/>
       <Route path={'/(.+)'} render={() => (
         <>
@@ -25,6 +28,7 @@ function App() {
               <Route path='/activities/:id' component={ActivityDetails}/>
               <Route path='/createActivity' component={ActivityForm}/>
               <Route key={location.key} path='/manage/:id' component={ActivityForm}/>
+              <Route path='/errors' component={TestErrors}/>
           </Container>
       </>
       )} />
