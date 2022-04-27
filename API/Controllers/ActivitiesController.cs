@@ -18,8 +18,10 @@ namespace API.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Activity>> GetActivity(Guid id)
         {
-            var result = await Mediator.Send(new Details.Query {Id = id});
-            return HandleResult(result);
+            return HandleResult(await Mediator.Send(new Details.Query 
+            {
+                Id = id
+            }));
         }
         
         [HttpPost]
