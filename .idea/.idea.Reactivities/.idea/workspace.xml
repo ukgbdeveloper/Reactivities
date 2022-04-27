@@ -5,13 +5,10 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="g">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/errors/TestError.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/errors/TestError.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
@@ -78,7 +77,7 @@
       <workItem from="1650636030169" duration="272000" />
       <workItem from="1650874434983" duration="1506000" />
       <workItem from="1650963001508" duration="5347000" />
-      <workItem from="1651047470522" duration="1718000" />
+      <workItem from="1651047470522" duration="3861000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -94,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650985601204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="handling server errors">
+      <created>1651055658079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651055658079</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added error handling">
+      <created>1651069816820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651069816820</updated>
+    </task>
+    <task id="LOCAL-00005" summary="g">
+      <created>1651069892669</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651069892669</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +138,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="added more stuff" />
     <MESSAGE value="added exception middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="added exception middleware" />
+    <MESSAGE value="handling server errors" />
+    <MESSAGE value="added error handling" />
+    <MESSAGE value="g" />
+    <option name="LAST_COMMIT_MESSAGE" value="g" />
   </component>
 </project>
