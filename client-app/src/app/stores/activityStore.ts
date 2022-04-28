@@ -1,3 +1,4 @@
+import { format } from "date-fns";
 import { makeAutoObservable, runInAction } from "mobx";
 import agent from "../api/agent";
 import { Activity } from "../models/activity";
@@ -21,7 +22,7 @@ export default class ActivityStore {
     get groupActivities() {
         return Object.entries(
             this.activitiesByDate.reduce((activites, activity) => {
-                const date = activity.date!.toISOString().split('T')[0];
+                const date = format(activity.date!, 'dd MMM yyyy')
                 activites[date] = activites[date] ? [...activites[date], activity] : [activity];
                 return activites;
             }, {} as {[key: string] : Activity[]})
