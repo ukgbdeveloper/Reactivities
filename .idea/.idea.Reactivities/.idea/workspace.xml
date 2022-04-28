@@ -5,10 +5,12 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="g">
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,8 @@
       <workItem from="1650636030169" duration="272000" />
       <workItem from="1650874434983" duration="1506000" />
       <workItem from="1650963001508" duration="5347000" />
-      <workItem from="1651047470522" duration="3861000" />
+      <workItem from="1651047470522" duration="3865000" />
+      <workItem from="1651147518777" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
