@@ -8,16 +8,23 @@
 
     <ItemGroup>
         <PackageReference Include="Honeycomb.OpenTelemetry" Version="0.19.0-beta" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.4" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.14">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.17.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Application\Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="reactivities.db-shm" />
+      <None Remove="reactivities.db-wal" />
     </ItemGroup>
 
 </Project>
