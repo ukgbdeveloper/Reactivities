@@ -6,17 +6,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DTOs/RegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/RegisterDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/errors/ValidationErrors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/errors/ValidationErrors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,11 +31,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -95,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.API/Dockerfile" />
       </list>
@@ -133,6 +144,7 @@
       <workItem from="1651739473312" duration="2109000" />
       <workItem from="1651743801866" duration="2429000" />
       <workItem from="1651746837470" duration="4371000" />
+      <workItem from="1651827799050" duration="2883000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -269,6 +281,25 @@
     <MESSAGE value="created register endpoint" />
     <MESSAGE value="added auth validation" />
     <option name="LAST_COMMIT_MESSAGE" value="added auth validation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/Controllers/AccountController.cs</url>
+          <line>47</line>
+          <properties documentPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" initialLine="47" containingFunctionPresentation="method 'Register'">
+            <startOffsets>
+              <option value="1393" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1394" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

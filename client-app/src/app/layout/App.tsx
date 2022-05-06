@@ -18,6 +18,7 @@ import LoginForm from '../../features/users/LoginForm';
 import { useStore } from '../stores/store';
 import { useEffect } from 'react';
 import LoadingComponents from './LoadingComponents';
+import ModalContainer from '../common/modals/modalContainer';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
   return (
     <>
     <ToastContainer position='bottom-right' />
+    <ModalContainer />
       <Route exact path='/' component={HomePage}/>
       <Route path={'/(.+)'} render={() => (
         <>

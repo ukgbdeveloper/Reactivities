@@ -11,3 +11,6 @@ riderModule.iml
 .idea/.idea.Reactivities/.idea/workspace.xml
 API/reactivities.db-shm
 API/reactivities.db-wal
+.idea/.idea.Reactivities/.idea/httpRequests/http-client.cookies
+.idea/.idea.Reactivities/.idea/httpRequests/http-requests-log.http
+.idea/.idea.Reactivities/.idea/httpRequests/2022-05-06T141309.200.json
