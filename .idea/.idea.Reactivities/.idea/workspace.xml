@@ -7,15 +7,16 @@
   <component name="ChangeListManager">
     <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7733bdb26b2be012c4266979a95d3728e74790201f91a02df4529ee6c2f37/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -27,8 +28,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
@@ -62,6 +61,44 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="API/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="sourceFilePath" value="API/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isPublishEnabled="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostPort" value="80" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="443" />
+                <option name="hostPort" value="443" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isPublishEnabled="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.API/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +117,22 @@
       <workItem from="1650874434983" duration="1506000" />
       <workItem from="1650963001508" duration="5347000" />
       <workItem from="1651047470522" duration="3865000" />
-      <workItem from="1651147518777" duration="595000" />
+      <workItem from="1651147518777" duration="830000" />
+      <workItem from="1651223822566" duration="193000" />
+      <workItem from="1651224040918" duration="582000" />
+      <workItem from="1651224696431" duration="1203000" />
+      <workItem from="1651225930047" duration="77000" />
+      <workItem from="1651226036155" duration="791000" />
+      <workItem from="1651228413524" duration="410000" />
+      <workItem from="1651650509700" duration="373000" />
+      <workItem from="1651651112538" duration="32000" />
+      <workItem from="1651656992499" duration="3242000" />
+      <workItem from="1651666045493" duration="612000" />
+      <workItem from="1651667217508" duration="41000" />
+      <workItem from="1651667285325" duration="7283000" />
+      <workItem from="1651739473312" duration="2109000" />
+      <workItem from="1651743801866" duration="2429000" />
+      <workItem from="1651746837470" duration="4371000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -117,7 +169,70 @@
       <option name="project" value="LOCAL" />
       <updated>1651069892669</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added app user">
+      <created>1651225004800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651225004800</updated>
+    </task>
+    <task id="LOCAL-00007" summary="moved to dotnet v 6 for ef core terminal usage">
+      <created>1651228623980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651228623980</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added migration for identity">
+      <created>1651650531608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651650531608</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added seeds for users">
+      <created>1651667485073</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651667485073</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Jwt Token Service">
+      <created>1651676236758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676236758</updated>
+    </task>
+    <task id="LOCAL-00011" summary="put key into config">
+      <created>1651676839416</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676839416</updated>
+    </task>
+    <task id="LOCAL-00012" summary="allowed anonymous access to login">
+      <created>1651741685894</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651741685894</updated>
+    </task>
+    <task id="LOCAL-00013" summary="created register endpoint">
+      <created>1651743289095</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651743289095</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added auth validation">
+      <created>1651746768137</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651746768137</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +259,19 @@
     <MESSAGE value="handling server errors" />
     <MESSAGE value="added error handling" />
     <MESSAGE value="g" />
-    <option name="LAST_COMMIT_MESSAGE" value="g" />
+    <MESSAGE value="added app user" />
+    <MESSAGE value="moved to dotnet v 6 for ef core terminal usage" />
+    <MESSAGE value="Added migration for identity" />
+    <MESSAGE value="added seeds for users" />
+    <MESSAGE value="Added Jwt Token Service" />
+    <MESSAGE value="put key into config" />
+    <MESSAGE value="allowed anonymous access to login" />
+    <MESSAGE value="created register endpoint" />
+    <MESSAGE value="added auth validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added auth validation" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
