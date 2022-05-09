@@ -5,31 +5,14 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Activities/ActivityDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Interfaces/IUserAccessor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Profiles/Profile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/ActivityAttendee.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Security/UserAccessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Activities/Create.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Create.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Activities/Details.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Details.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Activities/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/List.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Activity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Activity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/AppUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reactivities.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Reactivities.sln" afterDir="false" />
-    </list>
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="Added Attendee Mapping and handler logic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/nickpeachey/RiderProjects/Reactivities/API/Controllers/ActivitiesController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -156,7 +139,7 @@
       <workItem from="1651743801866" duration="2429000" />
       <workItem from="1651746837470" duration="4371000" />
       <workItem from="1651827799050" duration="2883000" />
-      <workItem from="1652097257143" duration="5192000" />
+      <workItem from="1652097257143" duration="5737000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -256,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651746768137</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Attendee Mapping and handler logic">
+      <created>1652106272475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652106272475</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +282,8 @@
     <MESSAGE value="allowed anonymous access to login" />
     <MESSAGE value="created register endpoint" />
     <MESSAGE value="added auth validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added auth validation" />
+    <MESSAGE value="Added Attendee Mapping and handler logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Attendee Mapping and handler logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
