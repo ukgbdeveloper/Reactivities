@@ -5,9 +5,12 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="added cancelled">
-      <change afterPath="$PROJECT_DIR$/Application/Activities/UpdateAttendance.cs" afterDir="false" />
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="added attend handler and cancel activity">
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Security/IsHostRequirement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/nickpeachey/RiderProjects/Reactivities/API/Controllers/ActivitiesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/nickpeachey/RiderProjects/Reactivities/API/Controllers/ActivitiesController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/nickpeachey/RiderProjects/Reactivities/Domain/Activity.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -143,7 +147,7 @@
       <workItem from="1651743801866" duration="2429000" />
       <workItem from="1651746837470" duration="4371000" />
       <workItem from="1651827799050" duration="2883000" />
-      <workItem from="1652097257143" duration="6691000" />
+      <workItem from="1652097257143" duration="8136000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -257,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652106955813</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added attend handler and cancel activity">
+      <created>1652108233290</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652108233290</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +306,8 @@
     <MESSAGE value="added auth validation" />
     <MESSAGE value="Added Attendee Mapping and handler logic" />
     <MESSAGE value="added cancelled" />
-    <option name="LAST_COMMIT_MESSAGE" value="added cancelled" />
+    <MESSAGE value="added attend handler and cancel activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="added attend handler and cancel activity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
