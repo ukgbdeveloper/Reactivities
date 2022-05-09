@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [AllowAnonymous]
     public class ActivitiesController : BaseApiController
     {
         [HttpGet]
@@ -18,7 +17,7 @@ namespace API.Controllers
         }
         
         [HttpGet("{id}")]
-        public async Task<ActionResult<Activity>> GetActivity(Guid id)
+        public async Task<ActionResult<ActivityDto>> GetActivity(Guid id)
         {
             return HandleResult(await Mediator.Send(new Details.Query 
             {

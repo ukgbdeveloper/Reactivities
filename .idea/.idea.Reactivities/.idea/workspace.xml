@@ -6,17 +6,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Activities/ActivityDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Interfaces/IUserAccessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Profiles/Profile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/ActivityAttendee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Security/UserAccessor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/RegisterDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/RegisterDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/home/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/errors/ValidationErrors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/errors/ValidationErrors.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Activities/Create.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Create.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Activities/Details.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Details.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Activities/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/List.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Activity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Activity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reactivities.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Reactivities.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -145,6 +156,7 @@
       <workItem from="1651743801866" duration="2429000" />
       <workItem from="1651746837470" duration="4371000" />
       <workItem from="1651827799050" duration="2883000" />
+      <workItem from="1652097257143" duration="5192000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
