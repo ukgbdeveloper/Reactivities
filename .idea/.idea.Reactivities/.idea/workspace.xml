@@ -5,7 +5,28 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="" />
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/API/Controllers/PhotosController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Interfaces/IPhotoAccessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Photos/Add.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Photos/Delete.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Photos/PhotoUploadResult.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Photo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Photos/CloudinarySettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Photos/PhotoAccessor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Persistence.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +34,11 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="e5b01539-8591-4885-a12b-a7d2df1b0192" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/nickpeachey/RiderProjects/Reactivities/API/Extensions/ApplicationServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/nickpeachey/RiderProjects/Reactivities/Domain/AppUser.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,15 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -143,6 +170,7 @@
       <workItem from="1652172474761" duration="1305000" />
       <workItem from="1652259092355" duration="2769000" />
       <workItem from="1652300564978" duration="353000" />
+      <workItem from="1652343389030" duration="9877000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -335,6 +363,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Application/Photos/Add.cs</url>
+          <line>57</line>
+          <properties documentPath="$PROJECT_DIR$/Application/Photos/Add.cs" initialLine="56" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="1912" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1923" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/Controllers/PhotosController.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/API/Controllers/PhotosController.cs" initialLine="17" containingFunctionPresentation="method 'Delete'">
+            <startOffsets>
+              <option value="427" />
+            </startOffsets>
+            <endOffsets>
+              <option value="498" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/Controllers/PhotosController.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/API/Controllers/PhotosController.cs" initialLine="16" containingFunctionPresentation="method 'Delete'">
+            <startOffsets>
+              <option value="417" />
+            </startOffsets>
+            <endOffsets>
+              <option value="418" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
