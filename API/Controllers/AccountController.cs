@@ -33,6 +33,7 @@ public class AccountController : ControllerBase
     {
         var user = await _userManager.Users.Include(p => p.Photos)
             .FirstOrDefaultAsync(x => x.Email == loginDto.Email);
+        
         if (user == null) return Unauthorized();
 
         var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);

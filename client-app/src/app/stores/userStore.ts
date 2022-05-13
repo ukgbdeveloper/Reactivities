@@ -17,12 +17,15 @@ export default class UserStore {
 
     login = async (creds: UserFormValues) => {
         try {
+            console.log(creds);
             const user = await agent.Account.login(creds);
             store.commonStore.setToken(user.token);
             runInAction(() => this.user = user);
             history.push('/activities');
             store.modalStore.closeModal();
         } catch (error) {
+            console.log('error at this point');
+            console.log(error);
             throw error;
         }
     }

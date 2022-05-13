@@ -5,19 +5,18 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="added migrations">
-      <change afterPath="$PROJECT_DIR$/API/Controllers/ProfilesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Activities/AttendeeDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Photos/SetMain.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Profiles/Details.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" afterDir="false" />
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/PhotosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/PhotosController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Activities/ActivityDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/ActivityDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Profiles/Profile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Profiles/Profile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/models/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/models/profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
-    "ts.external.directory.path": "/Applications/Rider.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/Rider.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -159,7 +158,8 @@
       <workItem from="1652259092355" duration="2769000" />
       <workItem from="1652300564978" duration="353000" />
       <workItem from="1652343389030" duration="10649000" />
-      <workItem from="1652431860190" duration="3691000" />
+      <workItem from="1652431860190" duration="4244000" />
+      <workItem from="1652443944593" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -308,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652432840210</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="completed photos section">
+      <created>1652438133641</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652438133641</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +324,16 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -351,20 +368,21 @@
     <MESSAGE value="added seed data for attendees" />
     <MESSAGE value="added add and delete photos endpoint" />
     <MESSAGE value="added migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added migrations" />
+    <MESSAGE value="completed photos section" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed photos section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/API/Controllers/AccountController.cs</url>
-          <line>49</line>
+          <line>50</line>
           <properties documentPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" initialLine="47" containingFunctionPresentation="method 'Register'">
             <startOffsets>
-              <option value="1473" />
+              <option value="1482" />
             </startOffsets>
             <endOffsets>
-              <option value="1474" />
+              <option value="1483" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
@@ -381,6 +399,21 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/Controllers/AccountController.cs</url>
+          <line>84</line>
+          <properties documentPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" initialLine="83" containingFunctionPresentation="method 'GetCurrentUser'">
+            <startOffsets>
+              <option value="2467" />
+              <option value="2516" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2614" />
+              <option value="2524" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
