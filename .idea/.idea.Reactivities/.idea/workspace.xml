@@ -7,16 +7,9 @@
   <component name="ChangeListManager">
     <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/models/profile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/models/profile.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/users/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/profiles/ProfilePhotos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/profiles/ProfilePhotos.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +152,10 @@
       <workItem from="1652300564978" duration="353000" />
       <workItem from="1652343389030" duration="10649000" />
       <workItem from="1652431860190" duration="4244000" />
-      <workItem from="1652443944593" duration="1991000" />
+      <workItem from="1652443944593" duration="2585000" />
+      <workItem from="1652694244103" duration="603000" />
+      <workItem from="1652793870266" duration="609000" />
+      <workItem from="1652802199436" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -342,6 +338,36 @@
             <State />
           </value>
         </entry>
+        <entry key="f5a961ba-e9df-4ae8-9da5-c7c6b920c693">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/nickpeachey/RiderProjects/Reactivities/API" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f5a961ba-e9df-4ae8-9da5-c7c6b920c693" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
@@ -374,19 +400,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/API/Controllers/AccountController.cs</url>
-          <line>50</line>
-          <properties documentPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" initialLine="47" containingFunctionPresentation="method 'Register'">
-            <startOffsets>
-              <option value="1482" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1483" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Application/Photos/Add.cs</url>
           <line>57</line>
