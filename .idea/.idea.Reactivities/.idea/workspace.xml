@@ -5,7 +5,17 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="" />
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/Comments/CommentDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Comments/Create.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Comment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Activity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Activity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27eTU4B1XO0FJYRTbJaTTFbQecI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -152,7 +165,8 @@
       <workItem from="1652793870266" duration="609000" />
       <workItem from="1652802199436" duration="451000" />
       <workItem from="1652884330107" duration="628000" />
-      <workItem from="1652947702789" duration="3064000" />
+      <workItem from="1652947702789" duration="3740000" />
+      <workItem from="1652972901805" duration="2437000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
