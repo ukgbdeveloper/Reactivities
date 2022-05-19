@@ -5,11 +5,7 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Profiles/Edit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ProfilesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProfilesController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +152,7 @@
       <workItem from="1652793870266" duration="609000" />
       <workItem from="1652802199436" duration="451000" />
       <workItem from="1652884330107" duration="628000" />
-      <workItem from="1652947702789" duration="2375000" />
+      <workItem from="1652947702789" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
