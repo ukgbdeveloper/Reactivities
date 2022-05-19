@@ -14,4 +14,10 @@ public class ProfilesController : BaseApiController
             Username = username
         }));
     }
+
+    [HttpPut]
+    public async Task<IActionResult> Edit(Edit.Command command)
+    {
+        return HandleResult(await Mediator.Send(command));
+    }
 }

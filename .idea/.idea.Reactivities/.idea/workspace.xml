@@ -6,16 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/Profiles/Edit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoUploadWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoUploadWidget.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoWidgetCropper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoWidgetCropper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/profileStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/profileStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/profiles/ProfilePhotos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/profiles/ProfilePhotos.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ProfilesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProfilesController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +156,7 @@
       <workItem from="1652793870266" duration="609000" />
       <workItem from="1652802199436" duration="451000" />
       <workItem from="1652884330107" duration="628000" />
-      <workItem from="1652947702789" duration="731000" />
+      <workItem from="1652947702789" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
