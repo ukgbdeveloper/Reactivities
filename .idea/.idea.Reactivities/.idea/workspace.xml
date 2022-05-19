@@ -9,6 +9,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/api/agent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoUploadWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoUploadWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoWidgetCropper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/common/imageUpload/PhotoWidgetCropper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/profileStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/profileStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/userStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/form/ActivityForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/profiles/ProfilePhotos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/profiles/ProfilePhotos.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +162,8 @@
       <workItem from="1652694244103" duration="603000" />
       <workItem from="1652793870266" duration="609000" />
       <workItem from="1652802199436" duration="451000" />
+      <workItem from="1652884330107" duration="628000" />
+      <workItem from="1652947702789" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -414,19 +422,30 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/API/Controllers/AccountController.cs</url>
-          <line>84</line>
-          <properties documentPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" initialLine="83" containingFunctionPresentation="method 'GetCurrentUser'">
+          <url>file://$PROJECT_DIR$/API/Controllers/PhotosController.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/API/Controllers/PhotosController.cs" initialLine="11" containingFunctionPresentation="method 'Add'">
             <startOffsets>
-              <option value="2467" />
-              <option value="2516" />
+              <option value="271" />
             </startOffsets>
             <endOffsets>
-              <option value="2614" />
-              <option value="2524" />
+              <option value="321" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Application/Photos/Add.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/Application/Photos/Add.cs" initialLine="40" containingFunctionPresentation="method 'Handle'">
+            <startOffsets>
+              <option value="1176" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1324" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
