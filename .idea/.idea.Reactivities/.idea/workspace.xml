@@ -6,15 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Comments/CommentDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Comments/Create.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Comment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/SignalR/ChatHub.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Comments/List.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Activity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Activity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/IdentityServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Comments/Create.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Comments/Create.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/details/ActivityDetailedChat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/details/ActivityDetailedChat.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="e5b01539-8591-4885-a12b-a7d2df1b0192" />
+    <option name="defaultAccountId" value="861a3233-f561-48ed-9267-484b883a9a39" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/Rider.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -166,7 +168,10 @@
       <workItem from="1652802199436" duration="451000" />
       <workItem from="1652884330107" duration="628000" />
       <workItem from="1652947702789" duration="3740000" />
-      <workItem from="1652972901805" duration="2437000" />
+      <workItem from="1652972901805" duration="2699000" />
+      <workItem from="1653033681097" duration="1000000" />
+      <workItem from="1653035069320" duration="4648000" />
+      <workItem from="1653049840532" duration="961000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -322,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652438133641</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="started adding signalr">
+      <created>1652991131254</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652991131254</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added comment migrations">
+      <created>1652991146293</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1652991146293</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +425,9 @@
     <MESSAGE value="added add and delete photos endpoint" />
     <MESSAGE value="added migrations" />
     <MESSAGE value="completed photos section" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed photos section" />
+    <MESSAGE value="started adding signalr" />
+    <MESSAGE value="added comment migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added comment migrations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

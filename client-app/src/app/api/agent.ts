@@ -1,5 +1,4 @@
 import axios, { AxiosError, AxiosResponse } from "axios";
-import { request } from "http";
 import { toast } from "react-toastify";
 import { history } from "../..";
 import { Activity, ActivityFormValues } from "../models/activity";
@@ -15,7 +14,7 @@ axios.defaults.baseURL = "http://localhost:5000/api";
 
 axios.interceptors.request.use(config => {
     const token = store.commonStore.token;
-    if (token) config.headers = {'Authorization': `Bearer ${token}`};
+    if (token) config.headers = { 'Authorization': `Bearer ${token}` };
     return config;
 })
 
@@ -24,8 +23,8 @@ axios.interceptors.response.use(async response => {
     await sleep(1000);
     return response;
 }, (error: AxiosError) => {
-    const {data,status, config} = error.response!;
-    switch(status) {
+    const { data, status, config } = error.response!;
+    switch (status) {
         case 400:
             if (typeof data === 'string') {
                 toast.error(data);
@@ -57,11 +56,11 @@ axios.interceptors.response.use(async response => {
     return Promise.reject(error);
 })
 
-const responseBody = <T> (response: AxiosResponse<T>) => response.data;
+const responseBody = <T>(response: AxiosResponse<T>) => response.data;
 
 const requests = {
     get: <T>(url: string) => axios.get<T>(url).then(responseBody),
-    post:<T>(url: string, body: {}) => axios.post<T>(url, body).then(responseBody),
+    post: <T>(url: string, body: {}) => axios.post<T>(url, body).then(responseBody),
     put: <T>(url: string, body: {}) => axios.put<T>(url, body).then(responseBody),
     delete: <T>(url: string) => axios.delete<T>(url).then(responseBody)
 }
@@ -86,8 +85,8 @@ const Profiles = {
     uploadPhoto: (file: Blob) => {
         let formData = new FormData();
         formData.append('File', file);
-        return axios.post<Photo>('photos', formData,{
-            headers: {'Content-type' : 'multipart/form-data'}
+        return axios.post<Photo>('photos', formData, {
+            headers: { 'Content-type': 'multipart/form-data' }
         });
     },
     setMainPhoto: (id: string) => requests.post(`/photos/${id}/setMain`, {}),

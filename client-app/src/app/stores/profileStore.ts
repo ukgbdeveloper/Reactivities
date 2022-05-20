@@ -1,4 +1,3 @@
-import { strictEqual } from "assert";
 import { makeAutoObservable, runInAction } from "mobx";
 import agent from "../api/agent";
 import { Photo, Profile } from "../models/profile";
@@ -34,10 +33,10 @@ export default class ProfileStore {
             console.log(error);
             runInAction(() => this.loadingProfile = false);
         }
-        
+
     }
 
-    uploadPhoto = async (file: Blob)  => {
+    uploadPhoto = async (file: Blob) => {
         this.uploading = true;
         try {
             const response = await agent.Profiles.uploadPhoto(file);
@@ -52,7 +51,7 @@ export default class ProfileStore {
                 }
                 this.uploading = false;
             })
-        } catch(error) {
+        } catch (error) {
             console.log(error);
             runInAction(() => this.uploading = false);
         }
@@ -71,7 +70,7 @@ export default class ProfileStore {
                     this.loading = false;
                 }
             });
-        } catch(error) {
+        } catch (error) {
             runInAction(() => this.loading = false);
             console.log(error);
         }
@@ -87,7 +86,7 @@ export default class ProfileStore {
                     this.loading = false;
                 }
             });
-        } catch(error) {
+        } catch (error) {
             runInAction(() => this.loading = false);
             console.log(error);
         }
@@ -97,14 +96,14 @@ export default class ProfileStore {
         this.loading = true;
         try {
             await agent.Profiles.updateProfile(profile);
-            runInAction(()=> {
+            runInAction(() => {
                 if (profile.displayName && profile.displayName !== store.userStore.user?.displayName) {
                     store.userStore.setDisplayName(profile.displayName);
                 }
-                this.profile = {...this.profile, ...profile as Profile };
+                this.profile = { ...this.profile, ...profile as Profile };
                 this.loading = false;
             })
-        } catch(error) {
+        } catch (error) {
             runInAction(() => this.loading = false);
             console.log(error);
         }

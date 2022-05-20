@@ -78,7 +78,7 @@ export default observer(function ActivityDetailedHeader({ activity }: Props) {
                   ? "Re-activate Activity"
                   : "Cancel Activity"
               }
-              onclick={cancelActivityToggle}
+              onClick={cancelActivityToggle}
               loading={loading}
             />
             <Button
