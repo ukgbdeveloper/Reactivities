@@ -1,3 +1,4 @@
+using System.Reflection.PortableExecutable;
 using System.Threading.Tasks;
 using Application.Followers;
 using Microsoft.AspNetCore.Mvc;
@@ -15,4 +16,13 @@ public class FollowController : BaseApiController
         }));
     }
 
+    [HttpGet("{username}")]
+    public async Task<IActionResult> GetFollowings(string username, string predicate)
+    {
+        return HandleResult(await Mediator.Send(new List.Query
+        {
+            Username = username, 
+            Predicate = predicate
+        }));
+    }
 }
