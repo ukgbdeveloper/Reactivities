@@ -5,14 +5,18 @@
     <projectFile profileName="API">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="added signalr">
+    <list default="true" id="48de824f-5393-4f61-b769-9881dc07c9fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/API/Controllers/FollowController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Followers/FollowToggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/UserFollowing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/dataSources/e2b3e469-fc79-4d1c-b734-191753e8795b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Comments/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Comments/List.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/commentStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/commentStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/details/ActivityDetailedChat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/details/ActivityDetailedChat.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/details/ActivityDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/details/ActivityDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Core/MappingProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Profiles/Profile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Profiles/Profile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/AppUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/AppUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/nickpeachey/Library/Application Support/JetBrains/Toolbox/apps/Rider/ch-0/221.5591.20/Rider.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/nickpeachey/Library/Application Support/JetBrains/Toolbox/apps/Rider/ch-0/221.5591.20/Rider.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
@@ -167,7 +171,9 @@
       <workItem from="1652972901805" duration="2699000" />
       <workItem from="1653033681097" duration="1000000" />
       <workItem from="1653035069320" duration="4648000" />
-      <workItem from="1653049840532" duration="3115000" />
+      <workItem from="1653049840532" duration="3141000" />
+      <workItem from="1653294415622" duration="174000" />
+      <workItem from="1653294622787" duration="3474000" />
     </task>
     <task id="LOCAL-00001" summary="added more stuff">
       <created>1650369525135</created>
@@ -344,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653052671461</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="completed chat section">
+      <created>1653061335775</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653061335775</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +419,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added more stuff" />
     <MESSAGE value="added exception middleware" />
     <MESSAGE value="handling server errors" />
     <MESSAGE value="added error handling" />
@@ -431,7 +443,8 @@
     <MESSAGE value="started adding signalr" />
     <MESSAGE value="added comment migrations" />
     <MESSAGE value="added signalr" />
-    <option name="LAST_COMMIT_MESSAGE" value="added signalr" />
+    <MESSAGE value="completed chat section" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed chat section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
